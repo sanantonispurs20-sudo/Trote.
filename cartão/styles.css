@@ -1,0 +1,38 @@
+body {
+    /* Cor de fundo*/
+    background-color: rgb(111, 128, 161);
+    
+    display: flex;
+    /* Alinha,emto*/
+    justify-content: center;
+    /* Alinhamento na vertical*/
+    align-items: center;
+    /* ocupa a tela inteira verticalmente*/
+    height: 100vh;
+}
+.cartão {
+    background-color: #fff;
+    /* cantod arredondados*/
+    border-radius: 20px;
+    /* Espaçamento interno*/
+    padding: 10px 20px;
+    /* Criar crusor*/
+    cursor: pointer;
+    /*Alinhamento do texto*/
+    text-align: center;
+}
+button{
+    border: white;
+    /* cor de fundo*/
+    background-color: rgb(60, 134, 134);
+    /* cor do texto*/
+    color: black;
+    border-radius:10px;
+}
+.imagem{
+    width: 120;
+    height: 120px;
+    /* cantos arrendondados*/
+    border-radius: 50%;
+    border: 3px solid #007bff;
+}
